@@ -1,0 +1,34 @@
+/* Butun sahifa (body) uchun dizayn */
+body {
+    background-color: #f0f4f8; /* Orqa fon rangi */
+    font-family: Arial, sans-serif; /* Shrift turi */
+    margin: 40px; /* Chetlardan bo'sh joy */
+}
+
+/* Sarlavha (h1) uchun dizayn */
+h1 {
+    color: #1e3a8a; /* Matn rangi (to'q ko'k) */
+    text-align: center; /* Matnni o'rtaga joylashtirish */
+}
+
+/* Class orqali murojaat qilish (nuqta bilan boshlanadi) */
+.matn {
+    color: #334155;
+    font-size: 18px; /* Shrift o'lchami */
+    line-height: 1.6; /* Qatorlar orasidagi masofa */
+}
+
+/* ID orqali murojaat qilish (panjara # bilan boshlanadi) */
+#tugma {
+    background-color: #2563eb; /* Tugma foni */
+    color: white; /* Tugma ichidagi yozuv rangi */
+    padding: 10px 20px; /* Tugma ichidagi bo'shliq */
+    border: none; /* Chegara chizig'ini olib tashlash */
+    border-radius: 8px; /* Burchaklarni yumaloqlash */
+    cursor: pointer; /* Sichqoncha borganda ko'rsatkichni o'zgartirish */
+}
+
+/* Sichqoncha tugma ustiga kelganda rangi o'zgarishi */
+#tugma:hover {
+    background-color: #1d4ed8;
+}
