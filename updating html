@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS bilan ishlash</title>
+    <!-- CSS faylni ulash kodi -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Salom, CSS!</h1>
+    <p class="matn">Bu chiroyli bezatilgan sahifa.</p>
+    <button id="tugma">Bosing</button>
+
+</body>
+</html>
